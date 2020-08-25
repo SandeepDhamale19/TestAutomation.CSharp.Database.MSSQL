@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomation.MSSQLTests", "TestAutomation.MSSQLTests\TestAutomation.MSSQLTests.csproj", "{1EB2AACA-5D73-4DF7-B48B-E8EA29F22E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutomation.Framework", "TestAutomation.Framework\TestAutomation.Framework.csproj", "{A4583D68-60B2-4ECE-ADD3-A7929B91A473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EB2AACA-5D73-4DF7-B48B-E8EA29F22E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB2AACA-5D73-4DF7-B48B-E8EA29F22E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB2AACA-5D73-4DF7-B48B-E8EA29F22E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB2AACA-5D73-4DF7-B48B-E8EA29F22E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4583D68-60B2-4ECE-ADD3-A7929B91A473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4583D68-60B2-4ECE-ADD3-A7929B91A473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4583D68-60B2-4ECE-ADD3-A7929B91A473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4583D68-60B2-4ECE-ADD3-A7929B91A473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F354EB35-D7EA-46F1-A2B3-C4F189E8C708}
+	EndGlobalSection
+EndGlobal

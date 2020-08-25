@@ -1,0 +1,59 @@
+Start test session: MSSQLTestsTestSuite
+
+Start test case: DataReader - Get Avengers Characteristics, , Test collection: MSSQLTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I query for Avengers Characteristics, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Query executed successfully: SELECT * FROM [dbo].[Avengers_Characteristics], as expected
+Execute test step: Then  I get characteristics for given character name, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+Info: 8/25/2020 10:48:42 AM - Actual value: Blue matches Expected Value Blue , as expected
+
+Start test case: DataTables - Get Avengers Visible Characteristics, , Test collection: MSSQLTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I query for Avengers Visible Characteristics, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Query executed successfully: SELECT * FROM [dbo].[Avengers_Characteristics], as expected
+Execute test step: Then  I get visible characteristics for given character name, 8/25/2020 10:48:42 AM
+Warning: 8/25/2020 10:48:42 AM - This step has not been performed.
+
+Start test case: ExecuteNonQuery - Insert reocrds for Avengers movies, , Test collection: MSSQLTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I Insert reocrds for Avengers movies, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Query executed successfully: INSERT INTO [dbo].[Avengers_Moviebase] ([Id], [Movie_Name], [Year_Of_Release]) VALUES (7, 'Avengers: Infinity War', '2018'), as expected
+Execute test step: Then  records should be available in Avenger's Moviebase, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Actual value: 1 matches Expected Value 1 , as expected
+
+Start test case: ExecuteScalar - Get Avengers information from database, , Test collection: MSSQLTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I query for Avengers Infromation, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Query executed successfully: SELECT First_Name FROM [dbo].[Avengers_Characters_Info] WHERE Character_Name = 'Captain America', as expected
+Execute test step: Then  I get required details from database table, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Actual value: Steven matches Expected Value Steven , as expected
+
+Start test case: ExecuteScalar - Get Avengers information from database dynamically, , Test collection: MSSQLTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I query for avenger 'Captain America' Infromation, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Query executed successfully: SELECT First_Name FROM [dbo].[Avengers_Characters_Info] WHERE Character_Name = 'Captain America', as expected
+Execute test step: Then  I get required details from database table, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:42 AM - Actual value: Steven matches Expected Value Steven , as expected
+
+Start test case: Store Procedure - Insert reocrds for Avengers movies using Store Procedure, , Test collection: MSSQLTestsTestSuite
+Test case scope:
+
+Execute test step: Given  I Insert reocrds for Avengers movies 10, Scarlet's Witch and 2014 using Store Procedure, 8/25/2020 10:48:42 AM
+Info: 8/25/2020 10:48:43 AM - Store peocedure executed successfully: SP_InsertMovieRecords, as expected
+Execute test step: Then  records should be inserted in Avenger's Moviebase for 10, Scarlet's Witch and 2014, 8/25/2020 10:48:43 AM
+Info: 8/25/2020 10:48:43 AM - Query executed successfully: SELECT TOP 1 * FROM Avengers_Moviebase ORDER BY ID DESC, as expected
+Info: 8/25/2020 10:48:43 AM - Actual value: 10 matches Expected Value 10 , as expected
+Info: 8/25/2020 10:48:43 AM - Actual value: Scarlet's Witch matches Expected Value Scarlet's Witch , as expected
+Info: 8/25/2020 10:48:43 AM - Actual value: 2014 matches Expected Value 2014 , as expected

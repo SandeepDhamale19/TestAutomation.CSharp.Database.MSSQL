@@ -1,0 +1,11 @@
+{
+  //Database
+  "DbConnectionStringAvengers": "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\DhamaleSl\\source\\repos\\TestAutomation.MSSQLTests\\TestAutomation.MSSQLTests\\Files\\TestAutomationDB.mdf;Integrated Security=True;Connect Timeout=30",
+  "QUERY_AvengerFirstName": "SELECT First_Name FROM [dbo].[Avengers_Characters_Info] WHERE Character_Name = 'Captain America'",
+  "QUERY_AvengerMovieList": "INSERT INTO [dbo].[Avengers_Moviebase] ([Id], [Movie_Name], [Year_Of_Release]) VALUES (7, 'Avengers: Infinity War', '2018')",
+  "QUERY_AvengerCharacteristics": "SELECT * FROM [dbo].[Avengers_Characteristics]",
+  "QUERY_AvengerVisibleCharacteristics": "SELECT EYE_COLOR, HAIR_COLOR, ALIGNMENT, GENDER FROM [dbo].[Avengers_Characteristics]",
+  "QUERY_AvengerFirstNameDynamic": "SELECT First_Name FROM [dbo].[Avengers_Characters_Info] WHERE Character_Name = [?]",
+  "SP_InsertAvengerMovies": "SP_InsertMovieRecords",
+  "QUERY_MovieRecords": "SELECT TOP 1 * FROM Avengers_Moviebase ORDER BY ID DESC"
+}
