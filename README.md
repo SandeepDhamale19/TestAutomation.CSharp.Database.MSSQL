@@ -1,5 +1,4 @@
-# <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/Database_small.png" alt="Selenium C# Database"> Selenium-C#-Specflow-Database-Tests
-Database Tests using Selenium, C# and Specflow
+# <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/SQL_png.png" alt="Selenium C# Database"> Selenium-C#-Specflow-Database-Tests
 
 ### Usage
 Install-Package Test.Automation.Framework -Version 1.0.0.5
