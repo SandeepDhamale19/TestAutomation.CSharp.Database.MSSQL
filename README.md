@@ -5,10 +5,10 @@ Database Tests using Selenium, C# and Specflow
 Install-Package Test.Automation.Framework -Version 1.0.0.5
 
 ### Features
-#### Initiate Database connection
-#### All Queries stored in Json
-#### Supports Dynamic SQL Queries
-#### Database Operations
+#####  Initiate Database connection
+#####  All Queries stored in Json
+#####  Supports Dynamic SQL Queries
+#####  Database Operations
     ▪ Execute Scalar 
     ▪ Execute Query 
     ▪ Data Reader
