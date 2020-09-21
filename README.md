@@ -1,4 +1,4 @@
-# <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/SQL_png.png" alt="Selenium C# Database" width="50" height="50"> Selenium-C#-Specflow-Database-Tests
+# <img src="https://github.com/SandeepDhamale1905/SandeepDhamaleProfile/blob/master/Logos/SQL_png.png" alt="Selenium C# Database" width="100" height="100"> Selenium-C#-Specflow-Database-Tests
 
 ### Usage
 Install-Package Test.Automation.Framework -Version 1.0.0.5
